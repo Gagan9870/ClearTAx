@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="21px" height="27px" viewBox="0 0 21 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 26.1333 19.8 26.1333 19.8 0.0003 0 0.0003"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-2" transform="translate(-1011.000000, -1190.000000)">
+            <g id="For-you" transform="translate(17.000000, 854.000000)">
+                <g id="Page-1" transform="translate(995.000000, 336.000000)">
+                    <path d="M16.3346,25.7335 L3.4656,25.7335 C1.7796,25.7335 0.3996,24.3535 0.3996,22.6675 L0.3996,3.4655 C0.3996,1.7795 1.7796,0.4005 3.4656,0.4005 L16.3346,0.4005 C18.0206,0.4005 19.3996,1.7795 19.3996,3.4655 L19.3996,22.6675 C19.3996,24.3535 18.0206,25.7335 16.3346,25.7335 Z" id="Fill-1" fill="#FFFFFF"></path>
+                    <path d="M16.3346,25.7335 L3.4656,25.7335 C1.7796,25.7335 0.3996,24.3535 0.3996,22.6675 L0.3996,3.4655 C0.3996,1.7795 1.7796,0.4005 3.4656,0.4005 L16.3346,0.4005 C18.0206,0.4005 19.3996,1.7795 19.3996,3.4655 L19.3996,22.6675 C19.3996,24.3535 18.0206,25.7335 16.3346,25.7335 Z" id="Stroke-3" stroke="#FB872B" stroke-width="0.8"></path>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-6"></g>
+                    <polygon id="Fill-5" fill="#FFD0B0" mask="url(#mask-2)" points="0.4 7.9213 19.4 7.9213 19.4 0.4003 0.4 0.4003"></polygon>
+                    <polygon id="Stroke-7" stroke="#FB872B" stroke-width="0.8" mask="url(#mask-2)" points="0.4 7.9213 19.4 7.9213 19.4 0.4003 0.4 0.4003"></polygon>
+                    <path d="M5.5865,10.296 L5.5865,15.128" id="Stroke-8" stroke="#FB872B" stroke-width="0.8" mask="url(#mask-2)"></path>
+                    <path d="M8.0035,12.712 L3.1705,12.712" id="Stroke-9" stroke="#FB872B" stroke-width="0.8" mask="url(#mask-2)"></path>
+                    <path d="M16.233,12.712 L11.401,12.712" id="Stroke-10" stroke="#FB872B" stroke-width="0.8" mask="url(#mask-2)"></path>
+                    <path d="M7.0963,18.0738 L4.0773,21.8468" id="Stroke-11" stroke="#FB872B" stroke-width="0.8" mask="url(#mask-2)"></path>
+                    <path d="M7.2955,21.669 L3.8785,18.252" id="Stroke-12" stroke="#FB872B" stroke-width="0.8" mask="url(#mask-2)"></path>
+                    <path d="M16.233,19.9605 L11.401,19.9605" id="Stroke-13" stroke="#FB872B" stroke-width="0.8" mask="url(#mask-2)"></path>
+                    <path d="M14.2701,18.1485 L13.3641,18.1485" id="Stroke-14" stroke="#FB872B" stroke-width="0.8" mask="url(#mask-2)"></path>
+                    <path d="M14.2701,21.773 L13.3641,21.773" id="Stroke-15" stroke="#FB872B" stroke-width="0.8" mask="url(#mask-2)"></path>
+                    <path d="M9.233,5.712 L7.401,5.712" id="Stroke-16" stroke="#FB872B" stroke-width="0.8" mask="url(#mask-2)"></path>
+                    <path d="M13.233,5.712 L11.401,5.712" id="Stroke-17" stroke="#FB872B" stroke-width="0.8" mask="url(#mask-2)"></path>
+                    <path d="M17.233,5.712 L15.401,5.712" id="Stroke-18" stroke="#FB872B" stroke-width="0.8" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
