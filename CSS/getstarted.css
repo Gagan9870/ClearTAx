@@ -10,3 +10,46 @@
 #navbar-1 {
     box-shadow: 1px 0px 2px;
 }
+
+#section-1 {
+    width: 100%;
+    border-top: solid rgb(232, 238, 240);
+}
+
+#left-side {
+    width: 50%;
+    height: 36rem;
+}
+
+#left-side>h2 {
+    margin-top: 10%;
+    margin-left: 7rem;
+}
+
+#left-side>p {
+    margin-left: 7rem;
+}
+
+#left-side>a>button {
+    padding: 0.8rem;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 5%;
+}
+
+#left-side>a>#btn-1 {
+    margin-left: 7rem;
+    margin-right: 2rem;
+}
+
+#section-2 {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.card-header>img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
