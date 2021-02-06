@@ -448,7 +448,7 @@ html{
 }
 /* Below Sticky Header*/
 .separator{
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 100%;
     background-color: rgba(95, 158, 160, 0.11);
     margin-bottom: 50px;
@@ -466,7 +466,7 @@ html{
     margin: 0 auto;
     padding: 30px 0;
     justify-content: space-around;
-    border-bottom: 1px solid rgba(2, 40, 41, 0.521);
+    /* border-bottom: 1px solid rgba(2, 40, 41, 0.521); */
 }
 .foryou h2{
     text-align: center;
