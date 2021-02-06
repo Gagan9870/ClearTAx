@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Clear Tax</title>
+    <link rel="stylesheet" href="/ClearTAx/CSS/getstarted.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <nav id="navbar-1" class="navbar bg-white navbar-light list-unstyled fixed-top navbar-expand-lg">
+        <div class="container">
+
+            <a class="h2 navbar-brand m-0" href="index.html" style="font-size: 2rem; font-weight: 500;">
+                <!-- <img src="#" alt="Logo"> cleartax -->
+                cleartax
+            </a>
+
+
+            <div class="navbar-nav nav-fill">
+                <div class="dropdown">
+
+                    <a class="nav-item nav-link dropdown-toggle" style="color: black; font-weight: 400;" id="productsDropdown" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#">Products</a>
+
+                    <div class="nav-item dropdown-menu" aria-labelledby="productsDropdown">
+                        <a class="dropdown-item" href="#">Income Tax Filling</a>
+                        <a class="dropdown-item" href="# ">Expert Assisted Services</a>
+                        <a class="dropdown-item" href="# ">Tax Saving</a>
+                        <a class="dropdown-item" href="# ">Mutual Fund Investments</a>
+                        <a class="dropdown-item" href="# ">GST Software</a>
+                        <a class="dropdown-item" href="# ">Tax Cloud (Direct Tax Software)</a>
+                    </div>
+                </div>
+
+                <a class="nav-link nav-item" style="color: black; font-weight: 400;">Support</a>
+                <a class="nav-link nav-item" style="color: black; font-weight: 400;">About Us</a>
+                <a class="nav-item nav-link" href=" " style="color: rgb(13, 13, 253); font-weight: 500;">Login/Signup</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar end -->
+
+    <div id="navbar-2" class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+            <h2 class="navbar-brand"><span style="color: skyblue; font-size: x-large;">cleartax</span><span style="color: rgb(44, 176, 228); font-size: x-large;"> GST</span></h2>
+
+            <div class="navbar-nav">
+                <h6 class="nav-item" style="margin-right: 48rem;">
+                    <a href="#section-11" class="nav-link d-inline-block" style="color: black;">GST GUIDE</a>
+                    <a href="#section-12" class="nav-link d-inline" style="color: black;">FAQS</a>
+                </h6>
+            </div>
+        </div>
+        <!--container-->
+    </div>
+    <!--navbar-2-->
+
+    <section id="section-1" class="bg-light">
+        <div id="left-side">
+            <h2 style="text-align: justify;">India's most trusted GST <br>solution</h2>
+            <p style="text-align: justify; font-weight: 500; font-size: larger;">Experience seamless Billing and GST Returns <br> Filing along with easy reconciliation of <br> mismatched invoices and automatic data <br> validation</p>
+            <br>
+            <a href=""><button id="btn-1" class="bg-primary text-white">Try For Free</button></a>
+            <a href=""><button id="btn2" class="bg-transparent text-primary border-primary">Request a Demo</button></a>
+            <br>
+            <br>
+            <h5><a href="" style="margin-left: 7rem;">Download Cleartax GST Desktop app</a></h5>
+            <h5>
+                <a href="" style="margin-left: 7rem;">For large corporates, please click here for quotes
+                </a>
+            </h5>
+        </div>
+        <!-- left-side div end -->
+    </section>
+
+    <section id="section-2">
+        <div>
+            <img src="/ClearTAx/Images/complete-gst.png" alt="icon">
+            <br>
+            <h2>A Complete GST Software For All Your Needs</h2>
+            <br>
+            <br>
+            <h4 class="text-black-50">All-in-one GST software simplifies your GST return filing experience with useful tools & insightful reports</h4>
+        </div>
+    </section>
+
+    <section id="section-3" style="margin-top: 5rem;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <!-- <div id="card-1" style="margin-left: 10rem; height: 10rem;"> -->
+                    <div class="card border-info mb-3 shadow-lg" style="max-width: 18rem; height: 20rem;">
+                        <div class="card-header" style="padding: 3rem;"><img src="/ClearTAx/Images/card-1.png" alt=""></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Multi-month 2A reports</h5>
+                            <p class="card-text text-black-50">Download GSTR-2A data for multiple months in a single <br> click</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+
+                <!-- card-1 -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-info mb-3 shadow-lg" style="max-width: 18rem; height: 20rem;">
+                        <div class="card-header" style="padding: 3rem;"><img src="/ClearTAx/Images/card-2.png" alt=""></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Matching made easy</h5>
+                            <p class="card-text text-black-50">Get GSTR-3B v/s 2A and GSTR-3B v/s 1 report and become compliant</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-info mb-3 shadow-lg" style="max-width: 18rem; height: 20rem;">
+                        <div class="card-header" style="padding: 3rem;"><img src="/ClearTAx/Images/card-3.png" alt=""></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Integrated GST Solution</h5>
+                            <p class="card-text text-black-50">Raise GST-compliant invoices to auto-prepare GSTR-1 & GSTR-3B</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- section-3 end -->
+
+    <section id="section-4" style="margin-top: 5rem;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <!-- <div id="card-1" style="margin-left: 10rem; height: 10rem;"> -->
+                    <div class="card border-info mb-3 shadow-lg" style="max-width: 18rem; height: 20rem;">
+                        <div class="card-header" style="padding: 3rem;"><img src="/ClearTAx/Images/card-4.png" alt=""></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Secure and cloud based</h5>
+                            <p class="card-text text-black-50">100% data security guaranteed with 128-bit SSL encryption</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+
+                <!-- card-1 -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-info mb-3 shadow-lg" style="max-width: 18rem; height: 20rem;">
+                        <div class="card-header" style="padding: 3rem;"><img src="/ClearTAx/Images/card-5.png" alt=""></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Solution to OTP issues</h5>
+                            <p class="card-text text-black-50">Try ClearTax Desktop App to <br>file GST returns hassle-free.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-info mb-3 shadow-lg" style="max-width: 18rem; height: 20rem;">
+                        <div class="card-header" style="padding: 2rem;">
+                            <img class="img-thumbnail" src="/ClearTAx/Images/card-6.png" alt=""></div>
+                        <div class=" card-body ">
+                            <h5 class="card-title ">Support Team</h5>
+                            <p class="card-text text-black-50 ">Timely assistance for you to <br> file your returns & resolve <br> all your queries.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- section-4 end -->
+    <section id="section-5" style="margin-top:8rem;">
+        <div id="left-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <img class="img-fluid" src="/ClearTAx/Images/icon_imports.png" alt="">
+                        <br>
+                        <br>
+                        <h3 style="text-align: justify;">Import data directly from <br> Excel, Tally and 100s of <br> ERPs</h3>
+                        <br>
+
+                        <h5 class="text-black-50" style="text-align: justify;">Works with all versions of Tally & Busy. <br> No manual data entry required. One <br> click import-export.</h5>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <img class="img-fluid" style="height:28rem; float: right;" src="/ClearTAx/Images/import-tally-sap.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-5 end -->
+    <section id="section-6" style="margin-top:8rem;">
+        <div id="left-container-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <img class="img-fluid" src="/ClearTAx/Images/gst-dashboard.png" alt="">
+
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <img class="img-fluid" style="height:8rem; margin-left: 9rem;" src="/ClearTAx/Images/icon_filingdashboard1.png" alt="">
+                        <br>
+                        <br>
+                        <h3 style="text-align: justify; margin-left: 10rem;">Track filing status of all <br> your clients</h3>
+                        <br>
+                        <h5 class="text-black-50" style="text-align: justify;margin-left: 10rem;">Single click dashboard to track returns <br> filing for multiple GSTINs at one place</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-6 end -->
+    <section id="section-7" style="margin-top:8rem;">
+        <div id="left-container-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <img class="img-fluid" src="/ClearTAx/Images/_icon_matching.png" alt="icon">
+                        <br>
+                        <br>
+                        <h3 style="text-align: justify; ">Claim Maximum ITC
+                        </h3>
+                        <br>
+                        <h5 class="text-black-50 " style="text-align: justify; ">Maximize ITC Through Advanced <br> Matching of GSTR-2A with purchase <br> register and stay compliant with <br> section 36(4) rule.</h5>
+                    </div>
+                    <div class="col-lg-6 mb-4 ">
+                        <img class="img-fluid " style="height:28rem; " src="/ClearTAx/Images/matching and reconcilation.png " alt=" ">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-7 end -->
+
+    <section id="section-8" style="text-align: center;margin-top: 8rem;">
+        <h1>New GST returns live!</h1>
+        <br>
+        <p style="font-size:1.7rem;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">Smoothly surmount all your new GST return challenges with ClearTax</p>
+    </section>
+    <!-- section-8 end -->
+    <section id="section-9" style="margin-top: 5rem;">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="col">
+                        <div class="col-lg-9 mb-4">
+                            <div class="card mb-4" style="max-width: 25rem; height: 3rem; text-align:justify;">
+                                <div class="card-header px-lg-5" style="padding: 0rem;">
+                                    <p style="font-size: large;font-style: italic;"><i class="fa fa-bolt text-warning fs-3 mr-4 mt-1" aria-hidden="true"></i> Track Missing Invoices</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-9 mb-4">
+                            <div class="card  mb-3" style="max-width: 25rem; height: 3rem;text-align:justify;">
+                                <div class="card-header px-lg-5" style="padding: 0rem;">
+                                    <p style="font-size: large;font-style: italic;"><i class="fa fa-bolt text-warning fs-3 mr-4 mt-1" aria-hidden="true"></i> Match with Purchase Books</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-9 mb-4">
+                            <div class="card  shadow mb-3" style="max-width: 25rem; height: 3rem;text-align:justify;">
+                                <div class="card-header px-lg-5" style="padding: 0rem;">
+                                    <p style="font-size: large;font-style: italic;"><i class="fa fa-bolt text-warning fs-3 mr-4 mt-1" aria-hidden="true"></i> Vendor Communication Enabled</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 mb-4 ">
+                            <div class="card shadow mb-3" style="max-width: 25rem; height: 3rem;text-align:justify;">
+                                <div class="card-header px-lg-5" style="padding: 0rem;">
+                                    <p style="font-size: large;font-style: italic;"><i class="fa fa-bolt text-warning fs-3 mr-4 mt-1" aria-hidden="true"></i> Integrate with Tally, other ERPs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <img class="image-fluid" style="height:23.2rem;" src="/ClearTAx/Images/ANX.png " alt=" ">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-9 end -->
+    <section id="section-10" style="text-align: center;margin-top:6rem">
+        <div class="container">
+            <img src="/ClearTAx/Images/GSP.svg" alt="">
+            <br>
+            <br>
+            <h2>ClearTax is a GST Suvidha Provider</h2>
+            <br>
+
+            <h5 class="text-black-50">ClearTax as a GSP provides taxpayer-oriented services to meet all your compliance needs. </h5>
+        </div>
+    </section>
+    <!-- section-10 end -->
+
+    <section id="section-11" style="margin-top: 4rem;" class="bg-light">
+        <div class="container">
+            <h1 style="text-align: center; margin-bottom: 2rem;">Goods and Service Tax Guides - Learn about various GST <br> Topics</h1>
+
+            <div class="col">
+                <div class="row">
+
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 20rem; height: 37rem;border-radius:3%;box-shadow:1px 1px 1.5rem rgb(172, 219, 238)">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="" style="text-decoration: none; margin-bottom: 1rem;">GST - Rules, Law and Basics</a>
+                                </h5>
+
+                                <p class="card-text" style="text-align:start">The Goods and Services Tax (GST) is a comprehensive, multi-stage, destination-based tax that is levied on every value addition made along the supply chain. It is now a single largest indirect tax levied within India on
+                                    the supply of goods and services. GST advocates the charge of different tax heads such as Central GST, State GST/Union Territory (UT) GST or Integrated GST depending upon whether the supply is within or across the state/UT.
+                                    Some of the advantages include a reduction of cascading effect, centralised filing portal, common e-waybill across the nation, reduced compliance when compared to the pre-GST tax regime, and smooth flow of input tax
+                                    credit for the businesses. You can read our articles to know more about these laws, and the common terms used in GST.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 20rem; height: 37rem;border-radius:3%;box-shadow:1px 1px 1.5rem rgb(172, 219, 238)">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="" style="text-decoration: none; margin-bottom: 1rem;">GST e-Invoicing</a>
+                                </h5>
+
+                                <p class="card-text" style="text-align:start">The government has recently announced the implementation of an electronic invoicing system for the business-2-business (B2B) invoices raised by the GST registered suppliers. It shall begin from 1st October 2020 and applies
+                                    to businesses with an annual turnover of more than Rs 100 crore in the previous financial year. It involves a real-time online verification of these invoices on the designated invoice registration portals and generation
+                                    of unique reference numbers for each of the invoices. The GSTN digitally signs and sends the verified invoices back to the suppliers with a quick response code. You can learn more about it by reading through our articles.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 20rem; height: 37rem;border-radius:3%;box-shadow:1px 1px 1.5rem rgb(172, 219, 238)">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="" style="text-decoration: none; margin-bottom: 1rem;">E-Way Bill Under GST</a>
+                                </h5>
+
+                                <p class="card-text" style="text-align:start">The e-way bill is a nation-wide common document required for the movement of goods and needs to be generated on the government’s e-way bill portal. It was made applicable from 1st April 2018 for inter-state movement of
+                                    goods, and the states have also adopted the system for intra-state transports. It is compulsory for a GST registered person where the value of consignment of goods transported in a vehicle exceeds Rs.50,000 (whether
+                                    or not a single invoice/bill/delivery challan). A unique e-way bill number (EBN) is allocated and made available to the supplier, recipient, and the transporter. Our articles will explain to you all about the forms
+                                    and the detailed process of generating the e-way bills in different modes. The articles also decode the rules pertaining to the same.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 20rem; height: 33rem;border-radius:3%;box-shadow:1px 1px 1.5rem rgb(172, 219, 238)">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="" style="text-decoration: none; margin-bottom: 1rem;">New GST Returns
+                                    </a>
+                                </h5>
+
+                                <p class="card-text" style="text-align:start">The new GST returns were recently introduced for the regular taxpayers to streamline the filing process under GST. It shall be implemented from October 2020 replacing GSTR-1, GSTR-2A and GSTR-3B return only. It contains
+                                    a simplified single return and aims to ease the filing for the GST registered taxpayers through automation. You will have one main return GST RET-1/2/3 and two annexures GST ANX-1 and GST ANX-2. The return must be filed
+                                    every month, except for the taxpayers with an annual turnover up to Rs.5 crore who can opt to file them quarterly. You can read our articles to learn more about the transitional challenges, solutions and the detailed
+                                    process involved in the same.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 20rem; height: 33rem;border-radius:3%;box-shadow:1px 1px 1.5rem rgb(172, 219, 238)">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="" style="text-decoration: none; margin-bottom: 1rem;">Registration</a>
+                                </h5>
+
+                                <p class="card-text" style="text-align:start">From 1st July 2017, GST replaced most of the central and state-level indirect taxes such as VAT, service tax, excise, etc. Businesses that are registered under VAT or service tax had to migrate to the Goods and Services
+                                    Tax as per the enrolment plan of state governments. GST applies to a business if the annual aggregate turnover exceeds a specified threshold limit that varies from state to state. It also varies between a supplier of
+                                    goods and a supplier of services. Read our articles to understand more about the registration process, its applicability and rules.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 20rem; height: 33rem;border-radius:3%;box-shadow:1px 1px 1.5rem rgb(172, 219, 238)">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="" style="text-decoration: none; margin-bottom: 1rem;">Invoice</a>
+                                </h5>
+
+                                <p class="card-text" style="text-align:start">An invoice is issued on every sale/purchase. The invoice contains the serial number, details of the product such as product name, description, quantity, details of the supplier, purchaser, tax charged and other particulars
+                                    such as discounts, terms of sale, etc. Every business is required to furnish a GST invoice as per the GST law. There are other documents such as delivery challans, debit and credit notes, bill of supply, receipt vouchers,
+                                    refund vouchers, etc. used in different circumstances by the business. Find out all about the invoicing requirements from our articles. and the detailed process of generating the e-way bills in different modes. The
+                                    articles also decode the rules pertaining to the same.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 20rem; height: 37rem;border-radius:3%;box-shadow:1px 1px 1.5rem rgb(172, 219, 238)">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="" style="text-decoration: none; margin-bottom: 1rem;">GST Returns</a>
+                                </h5>
+
+                                <p class="card-text" style="text-align:start">A return is a document that a taxpayer must file with the tax administrative authorities as per the law. Under the Goods and Services Tax law, a normal taxpayer will be required to furnish two returns - Form GSTR-1 and
+                                    Form GSTR-3B monthly and one annual return in Form GSTR-9. Apart from that, there is an auto-populated return to view the input tax credit details known as GSTR-2A. Form GSTR-9C is an annual reconciliation statement
+                                    to be certified by a CA/CMA for certain taxpayers only after the GST audit. Likewise, there are separate statements or returns for a taxpayer registered under the composition scheme, Input Service Distributor, and a
+                                    person liable to deduct or collect the tax (TDS/TCS). Use our step-by-step guides to understand how to file various returns under GST for your business.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 20rem; height: 37rem;border-radius:3%;box-shadow:1px 1px 1.5rem rgb(172, 219, 238)">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="" style="text-decoration: none; margin-bottom: 1rem;">Payments and Refunds</a>
+                                </h5>
+
+                                <p class="card-text" style="text-align:start">Refer to our guides to understand various provisions and laws related to the offset of tax credits against liability, payments, refund process and settlement of the Goods and Services Tax. All payments and refunds will
+                                    be made online through electronic ledgers. You will also find a list of the electronic ledgers, which will be maintained on the GST portal, explained in our articles.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 20rem; height: 37rem;border-radius:3%;box-shadow:1px 1px 1.5rem rgb(172, 219, 238)">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="" style="text-decoration: none; margin-bottom: 1rem;">Input Tax Credit</a>
+                                </h5>
+
+                                <p class="card-text" style="text-align:start">The Goods and Services Tax allows businesses to claim input credit on the taxes paid on the purchases. At the time of paying tax on output, you can reduce the tax you have already paid on inputs. It means that if you are
+                                    a manufacturer, supplier, agent, e-commerce operator, or aggregator, then you are eligible to claim input credit for tax paid on your purchases. You must report the input tax credit, if any to claim, in the monthly
+                                    GSTR-3B return. You should cross verify with GSTR-2A since provisional credit is allowed only to the extent of 10% of eligible credits in GSTR-2A. Read our articles to learn everything about the input tax credit under
+                                    the GST regime.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+
+
+                    <div class="col-lg-4 mx-lg-auto">
+                        <div class="card" style="width: 20rem; height: 29rem;border-radius:3%;box-shadow:1px 1px 1.5rem rgb(172, 219, 238)">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="" style="text-decoration: none; margin-bottom: 1rem;">Composition Scheme</a>
+                                </h5>
+
+                                <p class="card-text" style="text-align:start">The composition scheme is available for taxpayers whose annual turnover is not more than Rs.1.5 crore for primarily supplying goods. Service providers can also choose the scheme under special notification from FY 2019-20
+                                    if the annual turnover is not more than Rs.50 lakh. Under this scheme, the taxpayer need not maintain every record that is required under the Goods and Services Tax, and he has to pay tax at the specified rate on the
+                                    total turnover of the month. Learn about the advantages, drawbacks, procedures and conditions to be eligible for the composition scheme in the articles of this section.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 20rem; height: 29rem;border-radius:3%;box-shadow:1px 1px 1.5rem rgb(172, 219, 238)">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="" style="text-decoration: none; margin-bottom: 1rem;">GST Procedure</a>
+                                </h5>
+
+                                <p class="card-text" style="text-align:start">Read our guides on various procedures defined under the GST law related to the filing of various statements and forms, audit, advance ruling and related aspects. You will pay the Goods and Services Tax through self-assessment.
+                                    Read about provisions of self-assessment and other types of assessments done by the tax authorities. Learn about the advance ruling when you are confused regarding the applicable rate of tax or valuation of supply.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 20rem; height: 29rem;border-radius:3%;box-shadow:1px 1px 1.5rem rgb(172, 219, 238)">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="" style="text-decoration: none; margin-bottom: 1rem;">Penalties and Appeals</a>
+                                </h5>
+
+                                <p class="card-text" style="text-align:start">As a compliant taxpayer, avoid penalties and prosecution under the Goods and Services Tax regime. Learn about the various offences under this tax to evade them. Know about the various penalties that can be levied and scenarios
+                                    for prosecution under GST. Remember to carry the prescribed documents while transporting goods as they can be intercepted and inspected. Read about the inspection provisions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+
+
+                    <div class="col-lg-4 mx-lg-auto">
+                        <div class="card" style="width: 20rem; height:fit-content;border-radius:3%;box-shadow:1px 1px 1.5rem rgb(172, 219, 238)">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="" style="text-decoration: none; margin-bottom: 1rem;">Transition to GST</a>
+                                </h5>
+
+                                <p class="card-text" style="text-align:start">Most of the pre-GST (central excise, VAT and service tax) assessees migrated to GST. For this, the assessees were provided with a provisional ID and password by CBIC/State Commercial Tax departments. Filing of TRAN-01,
+                                    TRAN-02 and TRAN-03 became essential to carry forward the input tax credit from the pre-GST tax regime to the GST regime. Read all about the transition provisions in our articles.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-11 end -->
+
+    <section id="section-12" style="margin-top: 7rem; ">
+        <h1 style="text-align: center; font-style: italic;">FREQUENTLY ASKED QUESTIONS</h1>
+
+    </section>
+    <section id="section-13" style="margin-top: 5rem; padding-right: 4rem;padding-left: 4rem;margin-bottom: 10rem;">
+        <hr>
+        <div id="ques-1">
+            <details class="bg-white px-lg-5">
+                <summary class="text-black mb-1" style="font-size: 22px;">What is GST?</summary>
+                <div>
+                    <p class="bg-light" style="font-size: 20px;">The Goods and Services Tax is a unified, multi-stage, and consumption-based tax levied on the supply of goods or services, combining all stages such as manufacture, sale and consumption of goods and services. It functions at a national
+                        level in order to replace most of the national and state tax systems like VAT, service tax, excise duty, etc. It removes the cascading effect of tax-on-tax, earlier prevalent. It is applicable to you if you are into manufacturing,
+                        trading, e-commerce or providing services, and your annual turnover exceeds a prescribed limit.</p>
+                </div>
+            </details>
+        </div>
+        <!-- hello -->
+        <hr>
+        <div id="ques-2">
+            <details class="px-lg-5">
+                <summary class="text-black mb-1" style="font-size: 22px;">How to enrol for GST?</summary>
+                <div>
+                    <p class="bg-light" style="font-size: 22px;">You can enrol for GST via the common portal of the Goods and Services Tax. ClearTax can also help you with your enrollment. For more details,
+                        <a href="#">click here</a>.</p>
+                </div>
+            </details>
+        </div>
+        <!-- hello -->
+        <hr>
+        <div id="ques-3">
+            <details class="px-lg-5">
+                <summary class="text-black mb-1" style="font-size: 22px;">Can I have multiple registrations?</summary>
+                <div>
+                    <p class="bg-light" style="font-size: 20px;">Yes, a person with multiple business verticals in a state may obtain a separate registration for each business vertical (in each state).
+                    </p>
+                </div>
+            </details>
+        </div>
+        <!-- hello -->
+        <hr>
+        <div id="ques-4">
+            <details class="px-lg-5">
+                <summary class="text-black mb-1" style="font-size: x-large;">What are the benefits of Goods & Services Tax?</summary>
+                <div>
+                    <ul class="bg-light" style="font-size: 20px;">
+                        <li>Cascading tax effect (the tax-on-tax effect) does not exist</li>
+                        <li>It is easier to avail the input tax credit</li>
+                        <li>Return filing and compliance are consolidated</li>
+                        <li>Increased efficiency in logistics</li>
+                        <li>Subsumed a variety of indirect taxes</li>
+                        <li>Higher threshold for GST registration</li>
+                        <li>Composition scheme for small businesses</li>
+                        <li>Simpler online procedure</li>
+                        <li>Unorganised sectors brought under regulation</li>
+                    </ul>
+                </div>
+            </details>
+        </div>
+        <!-- hello -->
+        <hr>
+        <div id="ques-5">
+            <details class="px-lg-5">
+                <summary class="text-black mb-1" style="font-size: 22px;">What is Composition Scheme?</summary>
+                <div>
+                    <p class="bg-light" style="font-size: 20px;">Small businesses and taxpayers with a turnover of less than Rs.1.5 crore (Rs.75 lakh for special category states) can opt for the composition scheme where they will be taxed at a nominal rate of 0.5% or 1% (for manufacturers) CGST
+                        and SGST each (rates as per the latest proposed changes in the Goods and Services Tax bills). Composition levy is available to only small businesses dealing in goods. It is not available to interstate sellers, e-commerce traders
+                        and operators, and service providers.
+                    </p>
+                </div>
+            </details>
+        </div>
+
+        <!-- hello -->
+        <hr>
+        <div id="ques-6">
+            <details class="px-lg-5">
+                <summary class="text-black mb-1" style="font-size: 22px;">Is input tax credit available under the Goods and Services Tax?</summary>
+                <div>
+                    <p class="bg-light" style="font-size: 20px;">The input tax credit refers to the amount of tax on purchases that you can reduce at the time of paying tax on sales. One of the fundamental features of the Goods and Services Tax is the seamless flow of input credit across the chain
+                        (from the time the goods are manufactured until it is consumed) and country.
+                    </p>
+                </div>
+            </details>
+        </div>
+        <!-- hello -->
+        <hr>
+        <div id="ques-7">
+            <details class="px-lg-5">
+                <summary class="text-black mb-1" style="font-size: 22px;">Which taxes did GST replace?</summary>
+                <div>
+                    <p class="bg-light" style="font-size: 20px;">GST replaced all the taxes currently levied and collected by the centre (such as Central Excise Duty and CVD) and by the state (such as VAT and CST) on businesses.
+                    </p>
+                </div>
+            </details>
+        </div>
+
+        <!-- hello -->
+        <hr>
+        <div id="ques-8">
+            <details class="px-lg-5">
+                <summary class="text-black mb-1" style="font-size: 22px;">How many returns are required to be filed under GST?</summary>
+                <div>
+                    <p class="bg-light" style="font-size: 20px;">A business, in most cases, will be required to furnish two returns monthly and one annual return. That means any business will require to file twenty-five returns in a financial year. However, there are separate returns for a taxpayer
+                        registered under the composition scheme and as an Input Service Distributor, and a person liable to deduct or collect the tax (TDS/TCS).
+                    </p>
+                </div>
+            </details>
+        </div>
+        <!-- hello -->
+        <hr>
+        <div id="ques-9">
+            <details class="px-lg-5">
+                <summary class="text-black mb-1" style="font-size: 22px;">What is the HSN Code?</summary>
+                <div>
+                    <p class="bg-light" style="font-size: 20px;">The HSN code stands for “Harmonised System of Nomenclature”. This system has been introduced for the systematic classification of goods all over the world. The HSN code is a 6-digit uniform code that classifies 5000+ products and is
+                        accepted worldwide. It was developed by the World Customs Organization (WCO), and it came into effect from 1988.
+                    </p>
+                </div>
+            </details>
+        </div>
+        <!-- hello -->
+        <hr>
+        <div id="ques-10">
+            <details class="px-lg-5">
+                <summary class="text-black mb-1" style="font-size: 22px;">Is ClearTax GST a comprehensive GST software?</summary>
+                <div>
+                    <p class="bg-light" style="font-size: 20px;">ClearTax GST, with its powerful billing, vendor data mismatch reconciliation mechanism, validation engines and return filing process, serves as a single platform for all GST compliance.
+                        <ul class="bg-light" style="font-size: 20px;">
+                            <li>You can create 100% GST complaint bills or bulk import sales and purchase data from your accounting software such as Tally in excel format.</li>
+                            <li>Its data validation engine ensures that you are notified when your data seems to be not in line with pre-set rules and reduces the chances of any errors.</li>
+                            <li>You can also collaborate with your accountant and other colleagues in real-time.</li>
+                        </ul>
+                    </p>
+                </div>
+            </details>
+        </div>
+        <!-- hello -->
+        <hr>
+        <div id="ques-11">
+            <details class="px-lg-5">
+                <summary class="text-black mb-1" style="font-size: 22px;">Are there any pre-system requirements to use the ClearTax GST Software?</summary>
+                <div>
+                    <p class="bg-light" style="font-size: 20px;">The software is hosted on the cloud and accessible from anywhere at any time. You just need to sign up using your email ID and choose the type of plan you want to subscribe for. As soon as your subscription is activated, you will be
+                        able to get started. You just need an internet connection. Also, the software works both online and offline. If you work offline, the data will automatically sync as you get connected to the internet once again. Recently, we developed
+                        a desktop application, which allows direct import of data from the Tally software in the required format
+                    </p>
+                </div>
+            </details>
+        </div>
+        <!-- hello -->
+    </section>
+    <!-- section-13 end -->
+    <section id="section-14" style="margin-bottom:2rem">
+        <hr style="box-shadow: inset; color:black">
+    </section>
+
+    <footer></footer>
+
+
+
+
+
+    <!-- Bootstrap Popper and JS -->
+    <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx " crossorigin="anonymous "></script>
+</body>
+
+</html>
