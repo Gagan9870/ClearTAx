@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="61px" height="62px" viewBox="0 0 61 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.485778462 0 61.6269231 60.5192752 61.6269231 60.5192752 0.485778462 9.10133016e-20 0.485778462"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-2" transform="translate(-666.000000, -5261.000000)">
+            <g id="Page-1" transform="translate(666.000000, 5261.000000)">
+                <g id="Group-3" transform="translate(0.000000, 0.079719)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M60.5194431,31.0561246 C60.5194431,47.93964 46.9718468,61.6270362 30.2600853,61.6270362 C13.5477642,61.6270362 -0.00039174312,47.93964 -0.00039174312,31.0561246 C-0.00039174312,14.1726092 13.5477642,0.485778462 30.2600853,0.485778462 C46.9718468,0.485778462 60.5194431,14.1726092 60.5194431,31.0561246" id="Fill-1" fill="#FF7694" mask="url(#mask-2)"></path>
+                </g>
+                <polygon id="Fill-4" fill="#FFD82A" points="30.4030716 16.3483788 34.6685945 25.0801788 44.2075394 26.4806365 37.3050257 33.2776904 38.9346771 42.8750942 30.4030716 38.3441019 21.8714661 42.8750942 23.5011174 33.2776904 16.5986037 26.4806365 26.1375486 25.0801788"></polygon>
+                <polygon id="Fill-6" fill="#FCE68B" points="30.4030716 16.3483788 30.4030716 29.6117365 44.2075394 26.4806365 34.6685945 25.0801788"></polygon>
+                <polygon id="Fill-8" fill="#FCE68B" points="26.1375486 25.0803485 30.4030716 29.6119062 16.5986037 26.4808062"></polygon>
+                <polygon id="Fill-10" fill="#FCE68B" points="21.8714101 42.8753204 30.4030156 34.3905935 30.4030156 38.3437627"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

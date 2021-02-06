@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="54px" height="66px" viewBox="0 0 54 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="26.8964286" cy="31.9" rx="11.4964286" ry="11.6285714"></ellipse>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.190981658 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-2" transform="translate(-669.000000, -4913.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(669.000000, 4913.000000)">
+                <g transform="translate(0.071429, 0.000000)" id="Shape">
+                    <polygon fill="#33DAD0" points="0.3625 15.0333333 27.0321429 29.752381 27.0321429 65.5285714 0.3625 51.2809524"></polygon>
+                    <polygon fill="#1AA89A" points="53.7535714 15.0333333 27.0321429 29.752381 27.0321429 65.5285714 53.7535714 51.2809524"></polygon>
+                    <polygon fill="#2BBCAE" points="27.0321429 0.261904762 0.3625 15.0333333 27.0321429 29.752381 53.7535714 15.0333333"></polygon>
+                </g>
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M27.1553571,39.3380952 C27,39.3380952 26.8446429,39.1809524 26.8446429,39.0238095 C26.8446429,38.8666667 27,38.7095238 27.1553571,38.7095238 C30.6767857,38.7095238 33.5767857,35.8285714 33.5767857,32.2142857 C33.5767857,28.6 30.7285714,25.7190476 27.1553571,25.7190476 C23.6339286,25.7190476 20.7339286,28.6 20.7339286,32.2142857 C20.7339286,32.3714286 20.5785714,32.5285714 20.4232143,32.5285714 C20.2678571,32.5285714 20.1125,32.3714286 20.1125,32.2142857 C20.1125,28.2857143 23.2714286,25.0904762 27.1553571,25.0904762 C31.0392857,25.0904762 34.1982143,28.2857143 34.1982143,32.2142857 C34.1982143,36.1428571 31.0392857,39.3380952 27.1553571,39.3380952 Z" id="Shape" fill="#354272"></path>
+                <path d="M20.3714286,32.5809524 C20.2678571,32.5809524 20.1642857,32.5285714 20.1125,32.4238095 L18.6625,30.4333333 C18.5589286,30.2761905 18.6107143,30.0666667 18.7142857,29.9619048 C18.8696429,29.8571429 19.0767857,29.9095238 19.1803571,30.0142857 L20.4232143,31.7428571 L22.1321429,30.4857143 C22.2875,30.3809524 22.4946429,30.4333333 22.5982143,30.5380952 C22.7017857,30.6952381 22.65,30.9047619 22.5464286,31.0095238 L20.5785714,32.4761905 C20.475,32.5809524 20.4232143,32.5809524 20.3714286,32.5809524 Z" id="Shape" fill="#354272"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,59 +1,70 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-.header{
+
+.header {
     width: 100%;
     height: 70px;
     display: block;
     padding: 0 100px;
     /* background-color: yellow; */
-    line-height: 70px;    
-    border-bottom:1px solid bisque;
+    line-height: 70px;
+    border-bottom: 1px solid bisque;
 }
-.header h1,.header h4{
-    display: inline-block; 
+
+.header h1,
+.header h4 {
+    display: inline-block;
 }
-.header h1{
+
+.header h1 {
     padding-right: 30px;
 }
-.products{
+
+.products {
     display: block;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid rgb(152, 152, 243);
-    background-color:rgb(152, 152, 243);
+    background-color: rgb(152, 152, 243);
     color: white;
     font-size: 15px;
     border-radius: 6px;
     outline: none;
     cursor: pointer;
 }
-.products:hover,.sign-up:hover{
+
+.products:hover,
+.sign-up:hover {
     background-color: white;
     color: black;
-    
 }
-.menu{
+
+.menu {
     float: right;
     list-style: none;
     text-decoration: none;
 }
-.menu li{
+
+.menu li {
     display: inline-block;
     line-height: 70px;
-    padding:0 10px;
+    padding: 0 10px;
 }
-.menu li a{
+
+.menu li a {
     text-decoration: none;
     color: darkgreen;
     border-bottom: 1px solid #000;
 }
-.log-in{
+
+.log-in {
     display: block;
     padding: 10px;
     border: 1px solid rgb(152, 152, 243);
@@ -63,13 +74,14 @@ html{
     border-radius: 6px;
     cursor: pointer;
     outline: none;
-    
 }
-.log-in:hover{
+
+.log-in:hover {
     background-color: rgb(152, 152, 243);
     color: white;
 }
-.sign-up{
+
+.sign-up {
     display: block;
     padding: 10px;
     margin-bottom: 10px;
@@ -81,37 +93,43 @@ html{
     cursor: pointer;
     outline: none;
 }
-.slogan{
+
+.slogan {
     width: 100%;
     padding: 30px 0;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-.slogan img{
+
+.slogan img {
     display: inline-block;
     width: 30px;
     height: 30px;
     border-radius: 100px;
 }
-.slogan h3{
+
+.slogan h3 {
     color: gainsboro;
 }
-.form-filing{
+
+.form-filing {
     /* border: 1px solid; */
     width: 75%;
     /* height: 300px; */
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 30px;
 }
-.form-filing::after{
+
+.form-filing::after {
     display: block;
     clear: both;
     content: '';
 }
-.gst{
+
+.gst {
     border: 2px solid bisque;
-    width:28%;
+    width: 28%;
     height: 130px;
     float: left;
     margin-right: 10px;
@@ -119,62 +137,72 @@ html{
     margin-top: 100px;
     cursor: pointer;
 }
-.income-tax{
+
+.income-tax {
     border: 2px solid bisque;
-    width:40%;
+    width: 40%;
     height: 280px;
     float: left;
-    margin-right: 10px;   
+    margin-right: 10px;
     cursor: pointer;
 }
-.invoice{
+
+.invoice {
     border: 2px solid bisque;
-    width:28%;
+    width: 28%;
     height: 130px;
     float: left;
     margin-top: 100px;
     cursor: pointer;
 }
-.gst-image{
+
+.gst-image {
     /* border: 1px solid yellow; */
     width: 30%;
     height: 90px;
     float: left;
 }
-.gst-image img{
+
+.gst-image img {
     width: 70%;
     height: 70%;
     margin-left: 10px;
     margin-top: 10px;
 }
-.gst-text{
+
+.gst-text {
     /* border: 1px solid blue; */
     width: 70%;
     height: 90px;
     float: right;
 }
-.gst-text h2{
+
+.gst-text h2 {
     font-family: 'Open Sans Condensed', sans-serif;
     margin-top: 10px;
 }
-.gst-text p{
+
+.gst-text p {
     margin-top: 7px;
     color: rgb(69, 134, 134);
 }
-.gst-start{
+
+.gst-start {
     border-top: 2px solid bisque;
     width: 100%;
     height: 40px;
     display: flex;
     justify-content: center;
-    align-items: center;  
-}   
-.gst-start a{
+    align-items: center;
+}
+
+.gst-start a {
     text-decoration: none;
     color: lightblue;
     font-family: 'Open Sans Condensed', sans-serif;
 }
-.tax1{
+
+.tax1 {
     /* border: 1px solid; */
     width: 70%;
     display: block;
@@ -184,7 +212,8 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
 }
-.tax2{
+
+.tax2 {
     /* border: 1px solid; */
     width: 70%;
     display: block;
@@ -195,11 +224,13 @@ html{
     font-size: 20px;
     background-color: green;
 }
-.tax2 a{
+
+.tax2 a {
     text-decoration: none;
     color: white;
 }
-.tax3{
+
+.tax3 {
     /* border: 1px solid; */
     width: 70%;
     display: block;
@@ -207,12 +238,14 @@ html{
     text-align: center;
     font-size: 18px;
 }
-.tax3 a{
+
+.tax3 a {
     text-decoration: none;
     font-family: serif;
     color: teal;
 }
-.plan{
+
+.plan {
     border-top: 1px solid lightskyblue;
     border-bottom: 1px solid lightskyblue;
     width: 100%;
@@ -223,43 +256,53 @@ html{
     padding-bottom: 70px;
     /* margin-bottom: 50px; */
 }
-.plan::after{
+
+.plan::after {
     display: block;
     clear: both;
     content: '';
 }
-#heading{
+
+#heading {
     text-align: center;
     margin-bottom: 40px;
 }
-.plan1{
+
+.plan1 {
     border: 1px solid bisque;
     width: 30%;
     height: 340px;
     float: left;
     cursor: pointer;
 }
-.plan11{
+
+.plan11 {
     padding: 18px;
 }
-.plan11 h2{
+
+.plan11 h2 {
     text-align: left;
 }
-.plan11 p{
+
+.plan11 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
-.plan11 ul{
+
+.plan11 ul {
     list-style: none;
 }
-.plan11 ul li{
+
+.plan11 ul li {
     font-family: Arial, Helvetica, sans-serif;
 }
-.plan11 ul li i{
+
+.plan11 ul li i {
     margin-right: 8px;
     color: green;
 }
-.plan12{
+
+.plan12 {
     width: 100%;
     /* height: 30px; */
     border-top: 1px solid bisque;
@@ -268,50 +311,59 @@ html{
     align-items: center;
     padding: 10px 0;
 }
-.plan12 a{
-    text-decoration:none ;
+
+.plan12 a {
+    text-decoration: none;
     font-family: serif;
     color: rgb(97, 161, 182);
     font-size: 18px;
 }
-.plan12 a:hover{
+
+.plan12 a:hover {
     border-bottom: 1px solid rgb(97, 161, 182);
 }
-.plan2{
+
+.plan2 {
     border: 1px solid bisque;
     width: 30%;
     height: 340px;
     float: left;
     cursor: pointer;
 }
-.plan21{
-    /* padding: 18px; */
-}
-.plan21 h2{
+
+
+
+.plan21 h2 {
     text-align: left;
     margin-left: 10px;
     margin-top: 10px;
 }
-.plan21 p{
+
+.plan21 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     margin-left: 10px;
     margin-top: 10px;
 }
-.plan21 ul{
+
+.plan21 ul {
     list-style: none;
 }
-.plan21 ul li{
+
+.plan21 ul li {
     font-family: Arial, Helvetica, sans-serif;
 }
-.plan21 ul li i{
+
+.plan21 ul li i {
     margin-right: 8px;
     color: blueviolet;
 }
-.plan21 ul li a{
+
+.plan21 ul li a {
     text-decoration: none;
 }
-.plan21 ul li{
+
+.plan21 ul li {
     /* border: 1px solid; */
     font-size: 14px;
     display: block;
@@ -321,17 +373,20 @@ html{
     color: rgb(168, 104, 168);
 }
 
-.plan21 ul li:hover{
-    background-color:lightblue;
+.plan21 ul li:hover {
+    background-color: lightblue;
 }
-.plan21 ul li span{
+
+.plan21 ul li span {
     display: block;
-    float:  right;
+    float: right;
 }
-.plan21 ul li span i{
+
+.plan21 ul li span i {
     margin-left: 5px;
 }
-.plan22{
+
+.plan22 {
     width: 100%;
     /* height: 30px; */
     border-top: 1px solid bisque;
@@ -340,16 +395,19 @@ html{
     align-items: center;
     padding: 10px 0;
 }
-.plan22 a{
-    text-decoration:none ;
+
+.plan22 a {
+    text-decoration: none;
     font-family: serif;
     color: rgb(97, 161, 182);
     font-size: 18px;
 }
-.plan22 a:hover{
+
+.plan22 a:hover {
     border-bottom: 1px solid rgb(97, 161, 182);
 }
-.plan3{
+
+.plan3 {
     border: 1px solid bisque;
     width: 30%;
     height: 340px;
@@ -357,34 +415,39 @@ html{
     cursor: pointer;
     margin-left: 35px;
 }
-.plan31{
-    /* padding: 18px; */
-}
-.plan31 h2{
+
+
+.plan31 h2 {
     text-align: left;
     margin-left: 10px;
     margin-top: 10px;
 }
-.plan31 p{
+
+.plan31 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin-left: 10px;
     margin-top: 10px;
 }
-.plan31 ul{
+
+.plan31 ul {
     list-style: none;
 }
-.plan31 ul li{
+
+.plan31 ul li {
     font-family: Arial, Helvetica, sans-serif;
 }
-.plan31 ul li i{
+
+.plan31 ul li i {
     margin-right: 8px;
     color: blueviolet;
 }
-.plan31 ul li a{
+
+.plan31 ul li a {
     text-decoration: none;
 }
-.plan31 ul li{
+
+.plan31 ul li {
     /* border: 1px solid; */
     font-size: 14px;
     display: block;
@@ -394,17 +457,20 @@ html{
     color: rgb(168, 104, 168);
 }
 
-.plan31 ul li:hover{
-    background-color:lightblue;
+.plan31 ul li:hover {
+    background-color: lightblue;
 }
-.plan31 ul li span{
+
+.plan31 ul li span {
     display: block;
-    float:  right;
+    float: right;
 }
-.plan31 ul li span i{
+
+.plan31 ul li span i {
     margin-left: 5px;
 }
-.plan32{
+
+.plan32 {
     width: 100%;
     /* height: 30px; */
     border-top: 1px solid bisque;
@@ -413,53 +479,38 @@ html{
     align-items: center;
     padding: 10px 0;
 }
-.plan32 a{
-    text-decoration:none ;
+
+.plan32 a {
+    text-decoration: none;
     font-family: serif;
     color: rgb(97, 161, 182);
     font-size: 18px;
 }
-.plan32 a:hover{
+
+.plan32 a:hover {
     border-bottom: 1px solid rgb(97, 161, 182);
 }
-/* STICKY HEADER */
-.stickyHeader{
-    /* border: 1px solid; */
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    width: 100%;
-    height: 70px;
-    background-color: white;
-    padding: 0 20%;
-}
-.stickyHeader ul li{
-    display: inline;
-    /* border: 1px solid; */
-    line-height: 70px;
-    padding: 20px 50px;
-    margin-right: 4%;
-    font-size: 20px;
-    font-family: Arial,Helvetica, sans-serif;
-}
-.stickyHeader ul li:hover{
-    color: slategrey;
-    border-bottom:2px solid goldenrod;
-}
+
+
+
+
+
 /* Below Sticky Header*/
-.separator{
+
+.separator {
     /* border: 1px solid; */
+    margin-top: 50px;
     width: 100%;
     background-color: rgba(95, 158, 160, 0.11);
-    margin-bottom: 50px;
 }
-.separator ::after{
+
+.separator ::after {
     display: block;
     clear: both;
     content: '';
-    
 }
-.foryou{
+
+.foryou {
     /* border: 1px solid; */
     width: 80%;
     display: block;
@@ -468,22 +519,27 @@ html{
     justify-content: space-around;
     /* border-bottom: 1px solid rgba(2, 40, 41, 0.521); */
 }
-.foryou h2{
+
+.foryou h2 {
     text-align: center;
     margin-bottom: 30px;
-    
 }
-.foryou span{
+
+.foryou span {
     font-size: 20px;
     /* position: relative; */
-    
 }
-.foryou span i{
+
+.foryou span i {
     font-size: 30px;
     margin-right: 10px;
     margin-bottom: 30px;
 }
+
+
 /* line After TExt */
+
+
 /* .foryou span:after {
     content: "";
     display: block;
@@ -494,6 +550,8 @@ html{
     top: 50%;
     left: 0;
 } */
+
+
 /* .foryou ::after{
     display: block;
     clear: both;
@@ -501,22 +559,25 @@ html{
     
 } */
 
-.free1{
+.free1 {
     /* border: 1px solid; */
     width: 24%;
     height: 200px;
     float: left;
     margin-right: 1.3%;
 }
-.free1 h3{
+
+.free1 h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
-.free1 p{
+
+.free1 p {
     font-size: 17px;
     word-spacing: 8px;
-    color:  rgb(6, 114, 103);
+    color: rgb(6, 114, 103);
 }
-.free2{
+
+.free2 {
     /* border: 1px solid; */
     width: 24%;
     height: 200px;
@@ -526,17 +587,20 @@ html{
     background-color: white;
     /* position: relative; */
 }
-.free2 h3{
+
+.free2 h3 {
     text-align: center;
     margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.free2 p{
+
+.free2 p {
     font-size: 20px;
     word-spacing: 7px;
     color: rgb(6, 114, 103);
 }
-.free2 button{
+
+.free2 button {
     /* position: absolute; */
     /* bottom: 20px; */
     display: block;
@@ -549,10 +613,12 @@ html{
     outline: none;
     border: none;
 }
-.free2 button:hover{
+
+.free2 button:hover {
     background-color: rgb(45, 189, 45);
 }
-.free3{
+
+.free3 {
     /* border: 1px solid; */
     width: 24%;
     height: 200px;
@@ -561,17 +627,20 @@ html{
     padding: 20px;
     background-color: white;
 }
-.free3 h3{
+
+.free3 h3 {
     text-align: center;
     margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.free3 p{
+
+.free3 p {
     font-size: 16px;
     word-spacing: 7px;
-    color:  rgb(6, 114, 103);
+    color: rgb(6, 114, 103);
 }
-.free3 button{
+
+.free3 button {
     /* position: absolute; */
     /* bottom: 20px; */
     display: block;
@@ -584,19 +653,22 @@ html{
     outline: none;
     border: none;
 }
-.free3 button:hover{
+
+.free3 button:hover {
     background-color: rgb(45, 189, 45);
 }
-.free4{
+
+.free4 {
     /* border: 1px solid; */
     width: 24%;
     height: 200px;
     float: left;
     margin-bottom: 50px;
 }
-.free4 h3{
+
+.free4 h3 {
     /* border: 1px solid; */
-    display:block;
+    display: block;
     padding: 10px;
     text-align: left;
     color: rgb(14, 172, 224);
@@ -604,29 +676,36 @@ html{
     background-color: white;
     cursor: pointer;
 }
-.free4 h3:hover{
-    background-color:  rgba(95, 158, 160, 0.11);
+
+.free4 h3:hover {
+    background-color: rgba(95, 158, 160, 0.11);
 }
-.free4 img{
+
+.free4 img {
     margin-right: 10px;
     display: inline-block;
 }
-.free4 #h31,.free4 #h32{
+
+.free4 #h31,
+.free4 #h32 {
     margin-bottom: 18px;
 }
-.needHelp{
+
+.needHelp {
     /* border: 1px solid; */
     width: 50%;
     height: 350px;
     float: left;
 }
-.needHelp p{
+
+.needHelp p {
     display: block;
     font-size: 18px;
     word-spacing: 8px;
     margin-right: 30%;
 }
-.needHelp1{
+
+.needHelp1 {
     /* border: 1px solid; */
     width: 30%;
     height: 174px;
@@ -637,25 +716,31 @@ html{
     background-color: white;
     border-radius: 10px;
 }
-.needHelp1:hover,.needHelp2:hover{
+
+.needHelp1:hover,
+.needHelp2:hover {
     background-color: turquoise;
 }
-.needHelp1 img{
+
+.needHelp1 img {
     display: block;
     margin: 0 auto;
 }
-.needHelp1 h4{
+
+.needHelp1 h4 {
     text-align: center;
     font-size: 20px;
     margin: 10px 0;
     color: rgba(144, 31, 250, 0.541);
     font-family: arial;
 }
-.needHelp1 h3{
+
+.needHelp1 h3 {
     text-align: center;
     font-size: 20px;
 }
-.needHelp2{
+
+.needHelp2 {
     /* border: 1px solid; */
     width: 30%;
     height: 174px;
@@ -667,44 +752,52 @@ html{
     border-radius: 10px;
     margin-top: 30px;
 }
-.needHelp2 img{
+
+.needHelp2 img {
     display: block;
     margin: 0 auto;
 }
-.needHelp2 h4{
+
+.needHelp2 h4 {
     text-align: center;
     font-size: 20px;
     margin: 20px 0;
     color: rgba(144, 31, 250, 0.541);
     font-family: arial;
 }
-.needHelp2 h3{
+
+.needHelp2 h3 {
     text-align: center;
     font-size: 20px;
 }
-.needHelp3{
+
+.needHelp3 {
     /* border: 1px solid; */
     width: 32%;
     float: left;
     margin-top: 30px;
 }
-.needHelp3 a{
+
+.needHelp3 a {
     /* border: 1px solid; */
     text-decoration: none;
     display: block;
     padding: 10px;
 }
-.needHelp3 a i{
+
+.needHelp3 a i {
     margin-right: 4px;
     color: teal;
 }
-.taxGuides{
+
+.taxGuides {
     /* border: 1px solid; */
     width: 48%;
     height: 350px;
     float: right;
 }
-.guide{
+
+.guide {
     /* border: 1px solid; */
     width: 100%;
     height: 100px;
@@ -712,15 +805,66 @@ html{
     position: relative;
     cursor: pointer;
 }
-.guide img{
+
+.guide img {
     position: absolute;
     top: 30px;
     left: 20px;
 }
-.guide h3,.guide p{
+
+.guide h3,
+.guide p {
     margin-left: 70px;
     margin-bottom: 20px;
 }
-.guide:hover{
+
+.guide:hover {
     background-color: #fff;
+}
+
+
+.economic{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(8, 45, 46);
+    padding: 50px 0;
+    padding-right: 15%;
+}
+.rightEco{
+    /* border: 1px solid white; */
+    float: right;
+    width: 35%;
+}
+.eco{
+    /* border: 1px solid white; */
+    color: white;
+    font-size: 25px;
+}
+.eco1,.eco2,.eco3{
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+}
+.eco11{
+    /* border: 1px solid white; */
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+}
+.eco11 img{
+    width: 100%;
+    height: 100%;
+}
+.eco12{
+    /* border: 1px solid white; */
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    float: right;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.eco12 p {
+    margin-top: 10px;
 }

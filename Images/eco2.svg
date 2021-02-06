@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="70px" height="54px" viewBox="0 0 70 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="57.7432099" cy="40.9314286" rx="12.0592593" ry="12.0514286"></ellipse>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-2" transform="translate(-661.000000, -5081.000000)">
+            <g id="Group" transform="translate(661.000000, 5081.000000)">
+                <path d="M25.6395062,0 L4.72592593,0 C2.33580247,0 0.380246914,1.95428571 0.380246914,4.34285714 L0.380246914,36.5885714 C0.380246914,38.9771429 2.33580247,40.9314286 4.72592593,40.9314286 L45.6839506,40.9314286 L25.6395062,0 Z" id="Shape" fill="#3C3CBF" fill-rule="nonzero"></path>
+                <path d="M51.4419753,38 L9.01728395,38 C6.62716049,38 4.67160494,36.0457143 4.67160494,33.6571429 L4.67160494,7.32857143 C4.67160494,4.94 6.62716049,2.98571429 9.01728395,2.98571429 L51.4419753,2.98571429 C53.8320988,2.98571429 55.7876543,4.94 55.7876543,7.32857143 L55.7876543,33.6571429 C55.7876543,36.0457143 53.8320988,38 51.4419753,38 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M55.7876543,49.4 L4.72592593,49.4 C2.33580247,49.4 0.380246914,47.4457143 0.380246914,45.0571429 L0.380246914,12.8114286 C0.380246914,10.4228571 2.33580247,8.46857143 4.72592593,8.46857143 L55.7876543,8.46857143 C58.1777778,8.46857143 60.1333333,10.4228571 60.1333333,12.8114286 L60.1333333,45.0571429 C60.1333333,47.4457143 58.1777778,49.4 55.7876543,49.4 Z" id="Shape" fill="#8B8BF2" fill-rule="nonzero"></path>
+                <g id="Oval" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#00C693" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <polyline id="Shape" stroke="#FFFFFF" stroke-width="4" points="51.6049383 39.8457143 54.3209877 44.6771429 65.1851852 37.2942857"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
