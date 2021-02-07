@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            width: 100%;
+            padding: 10px 20px;
+        }
+        .formContainer{
+            /* border: 1px solid; */
+            width: 100%;
+            height: 70vh;
+            border-bottom: 1px solid lightcoral;
+            border-top: 1px solid lightcoral;
+        }
+        .box{
+            border: 1px solid;
+            width: 27%;
+            height: 50vh;
+            display: block;
+            margin: auto;
+            margin-top: 40px;
+            padding: 20px;
+            border-radius: 3px;
+            border-color: lightcoral;
+        }
+        .googleLogin{
+            border: 1px solid;
+            width: 100%;
+            height: 40px;
+            background-color: blue;
+            border-radius: 5px;
+            /* padding: 2px; */
+        }
+        .googleLogin img{
+            width: 15%;
+            height: 100%;
+        }
+        .googleLogin span{
+            float: right;
+            line-height: 40px;
+            text-align: center;
+            margin-right: 70px;
+            font-size: 20px;
+            color: white;
+        }
+        h1 {
+            font-family: sans-serif;
+            margin: 10px auto;
+            text-align: center;
+            font-size: 16px;
+            /* max-width: 600px; */
+            position: relative;
+        }
+
+        h1:before {
+            content: "";
+            display: block;
+            width: 40%;
+            height: 1px;
+            background: #000;
+            left: 0;
+            top: 50%;
+            position: absolute;
+        }
+
+        h1:after {
+            content: "";
+            display: block;
+            width: 40%;
+            height: 1px;
+            background: #000;
+            right: 0;
+            top: 50%;
+            position: absolute;
+        }
+        .box b{
+            display: block;
+            margin-top: 40px;
+            font-size: 20px;
+        }
+        .form label{
+            display: block;
+            margin: 10px 0;
+        }
+        #email{
+            width: 100%;
+            padding: 10px;
+            /* border: none; */
+            outline: none;
+            margin: 5px 0;
+        }
+        .form button{
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 20px;
+            color: white;
+            background-color: green;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+        }
+        .footer4{
+            /* border: 1px solid; */
+            padding: 30px 10%;
+            width: 100%;
+            background-color: rgba(95, 158, 160, 0.11);
+            /* height: 100vh; */
+            display: flex;
+            flex-direction: row;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .footer41{
+            width: 60%;
+        }
+        .footer41 p{
+            display: block;
+            margin-bottom: 20px;
+        }
+        .footer41 a{
+            padding: 10px;
+        }
+        .footer42{
+            width: 20%;
+        }
+        .footer421{
+            /* border: 1px solid; */
+            width: 30%;
+            float: left;
+            padding: 10px;
+        }
+        .footer422{
+            /* border: 1px solid; */
+            width: 70%;
+            float: left;
+            padding: 10px 0;
+        }
+        .footer422 p{
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><img src="../Images/logo.png"></a>
+    </div>
+    <div class="formContainer">
+        <div class="box">
+            <a href="#">
+                <div class="googleLogin">
+                    <img src="https://assets1.cleartax-cdn.com/cleartax-sso/images/google-logo-icon-1.svg" alt="googleLogo">
+                    <span>Login with Google</span>
+                </div>
+            </a>
+            <h1>OR</h1>
+            <b>Login/SignUp with your Email</b>
+            <form action="#" class="form">
+                <label for="email" >Enter your Email*</label>
+                <input type="email" id="email" placeholder="Enter Email" required>
+                <button type="submit">Continue</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer4">
+        <div class="footer41">
+            <p>ClearTax is a product by Defmacro Software Pvt. Ltd.</p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Need Help</a>
+        </div>
+        <div class="footer42">
+            <div class="footer421">
+                <img src="../Images/iso-logo.png" alt="">
+            </div>
+            <div class="footer422">
+                <p>ISO 27001</p>
+                <p>Data Center</p>
+            </div>
+        </div>
+        <div class="footer42">
+            <div class="footer421">
+                <img src="../Images/ssl.png" alt="">
+            </div>
+            <div class="footer422">
+                <p>SSL Certified Site</p>
+                <p>128-bit Encryption</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
