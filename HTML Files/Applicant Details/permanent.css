@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-item{
+    padding-left: 30px ;
+    font-size: 14px;
+}
+
+.nav-item small{
+    display: block;
+    border: 1px solid;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    border-color: blueviolet;
+    border-radius: 6px;
+}
+.nav-item small i{
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.nav-item small:hover{
+    color: white;
+    background-color: blueviolet;
+}
+#linksRow{
+    padding-right: 8%;
+    margin-top: 10px;
+}
+.list-inline{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.list-inline-item{
+    border: 1px solid;
+    padding: 8px 40px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.belowLinks a{
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+}
+.belowLinks #btn1{
+    border-bottom: 5px solid skyblue;
+}
+
+
+.belowLinks #btn2::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 5px;
+    background: rgb(168, 129, 78);
+    transition:  .3s;
+}
+.belowLinks #btn2:hover::after{
+    width: 100%;
+}
+form label{
+    font-size: 14px;
+}
+form input[type=text]{
+    width: 60%;
+    height: 30px;
+    outline: none;
+}
+fieldset{
+    border: 1px groove #ddd !important;
+    width: 50%;
+    padding: 10px;
+}
+.formButton{
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: violet;
+    margin: 30px 0;
+}
+#footerLink:hover{
+    border-bottom: 1px solid blueviolet;
+}
+footer img{
+    width: 30px;
+    height: 40px;
+    margin: 0 10px;
+}
+footer p{
+    margin-right: 50px;
+}
+

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- link css -->
+    <link rel="stylesheet" href="./permanent.css">
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Permanent Information</title>
+</head>
+<body >
+    
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="./image/logo.png" class="img-fluid" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Need Help?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Buy Assisted Tax Filling Plan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Refer & Earn</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">My Account</a>
+              </li>
+              <li class="nav-item" id="search">
+                <a class="nav-link active " href="#"><small>Search <i class="fa fa-search" aria-hidden="true"></i></small></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Form Links -->
+      <section>
+          <div class="container">
+              <div class="row" id="linksRow">
+                <ul class="list-inline">
+                    <li class="list-inline-item btn-outline-info btn-primary">1. PERSONAL INFO</li>
+                    <li class="list-inline-item btn-outline-warning">2. INCOME SOURCES</li>
+                    <li class="list-inline-item btn-outline-warning">3. DEDUCTIONS</li>
+                    <li class="list-inline-item btn-outline-success">4. TAXES PAID</li>
+                    <li class="list-inline-item btn-outline-primary">5. TAX FILING</li>
+                </ul>
+              </div>
+          </div>
+      </section>
+
+      <div class="container mt-3">
+        <div class="belowLinks">
+            <a href="#" class="text-center" id="btn1">A. PERSONAL INFO</a>
+            <a href="#" class="text-center" id="btn2">B. ADDRESS</a>
+        </div>
+      </div>
+
+      <section>
+          <div class="container mt-3">
+            <h4 class="my-3">Permanent Information</h4>
+            <h5 >Please enter your information here.</h5>
+            <form>
+                <fieldset >
+                  <legend >Personal Information</legend>
+                  <div class="mb-3">
+                      <label for="exampleFormControlInput1">First Name*</label><br>
+                      <input type="text"  id="exampleFormControlInput1">
+                  </div>
+                  <div class="mb-3">
+                      <label for="exampleFormControlInput2" >Middle Name*</label><br>
+                      <input type="text"  id="exampleFormControlInput2" >
+                  </div>
+                  <div class="mb-3">
+                      <label for="exampleFormControlInput3" >Last Name*</label><br>
+                      <input type="text"  id="exampleFormControlInput3">
+                  </div>
+                  <div class="mb-3">
+                    <label for="gender">Gender*</label><br>
+                    <select name="genders" id="gender">
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput4" >Date of Birth*</label><br>
+                    <small class="fst-normal">specify date in format like 26/05/2000</small><br>
+                    <input type="text"  id="exampleFormControlInput4" placeholder="dd/mm/yyyy">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput5" >Pan Number*</label><br>
+                    <input type="text"  id="exampleFormControlInput5">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput6" >Father's Name*</label><br>
+                    <input type="text"  id="exampleFormControlInput6">
+                  </div>
+                  <div class="mb-3">
+                    <label for="gender">Marital Status*</label><br>
+                    <select name="Marital" id="maritalStatus">
+                      <option value="Prefer Not to Disclose">Prefer Not to Disclose</option>
+                      <option value="married">Married</option>
+                      <option value="unmarried">UnMarried</option>
+                    </select>
+                  </div>
+                </fieldset>
+                <button class="formButton">Save</button>
+            </form>
+          </div>
+      </section>
+
+      <!-- footer -->
+      <footer>
+        <div class="container mt-5 mb-2">
+            <hr>
+            <div class="row">
+                <div class="col-lg-7 col-md-7 col-sm-7">
+                    <i class="d-block">ClearTax is a product by Defmacro Software Pvt. Ltd.</i>
+                    <a href="#" class="link-primary text-decoration-none" id="footerLink">Privacy Policy</a>
+                    <a href="#" class="link-primary text-decoration-none mx-3" id="footerLink">Terms of Use</a>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5 border-start d-flex flex-row">
+                    <img src="./image/iso-logo.png" alt="ISO">
+                    <p >ISO 27001 <br>Data Center</p>
+                    <img src="./image/ssl.png" alt="SSL">
+                    <p >SSL Certified Site <br>128 bit Encryption</p>
+                </div>
+            </div>
+        </div>
+    
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+</body>
+</html>
